@@ -1,0 +1,122 @@
+
+body {
+    color      : black;
+    font-family: bodoni;
+    margin     : 0;
+}
+
+.header {
+    font-family : calibri;
+    padding     : 0px 0px;
+    width       : 80%;
+    margin-left : auto;
+    margin-right: auto;
+}
+.header img {
+    border-radius: 50px;
+    padding-top: 10px;
+    border: none;
+}
+
+.content {
+    background  : transparent;
+    color       : black;
+    padding     : 12px 0px;
+    width       : 80%;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.footer {
+    background: #0e0e16;
+    color     : white;
+    padding   : 30px;
+    text-align: right;
+}
+
+.container {
+    background: #52c7b8;
+    /*padding : 0px 100px; */
+}
+
+.menu {
+    font-family: calibri;
+    text-align : left;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.menu a:hover {
+    color     : yellow;
+    background: cyan;
+    padding   : 6px 12px;
+}
+
+.menu a:active {
+    color  : black;
+    padding: 6px 12px;
+}
+
+.menu a:visited {
+    color  : black;
+    padding: 6px 12px;
+}
+
+.menu a:link {
+    color          : black;
+    padding        : 6px 12px;
+    text-decoration: none;
+}
+
+a {
+    padding      : 12px 18px;
+    color        : cyan;
+    border       : 2px solid cyan;
+    border-radius: 20px;
+}
+
+h3 {
+    font-family: calibri;
+}
+
+img {
+    padding      : 2px;
+    border       : 2px solid blueviolet;
+    border-radius: 50px;
+}
+
+h2 {
+    font-family: serif;
+}
+
+h5 {
+    margin   : 12px 0px 0px 0px;
+    font-size: 16px;
+    color    : darkred;
+}
+
+p {
+    margin: 0px;
+}
+
+.putra {
+    font-family: arial;
+    padding    : 20px 0px;
+    width       : 80%;
+    margin-left : auto;
+    margin-right: auto;
+   /* border: 2px solid red;*/
+}
+.sa {
+    background : #52c7b8;
+    /*border: 2px solid red;*/
+}
+
+table {
+    border: 2px solid cyan;
+}
+
+
