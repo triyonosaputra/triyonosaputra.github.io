@@ -1,0 +1,338 @@
+.grid-container {
+    display              : grid;
+    grid-template-columns: auto auto auto;
+    gap                  : 25px 50px;
+    margin               : 50px 100px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border          : 1px solid rgba(0, 0, 0, 0.8);
+    padding         : 20px;
+    font-size       : 30px;
+    text-align      : center;
+    height          : 300px;
+}
+
+body {
+    color      : #ffffff;
+    font-family: bodoni;
+    margin     : 0;
+    background : #ffffff;
+}
+
+.sa {
+    background: #002664;
+}
+
+.putra {
+    font-family : arial;
+    padding     : 12px 0px;
+    width       : 85%;
+    margin-left : auto;
+    margin-right: auto;
+    font-size   : small;
+}
+
+.header {
+    color         : black;
+    font-family   : calibri;
+    padding       : 0px 0px;
+    background    : #ffffff;
+    /*width       : 80%;
+    margin-left   : auto;
+    margin-right  : auto;
+    /*border      :2px solid black;*/
+}
+
+.nsw-navigation__list {
+    font-family : calibri;
+    text-align  : left;
+    width       : 92%;
+    margin-left : auto;
+    margin-right: auto;
+    /*border    :2px solid black;*/
+    padding     : auto;
+}
+
+.nsw-navigation__list li {
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.nsw-navigation__list a:hover {
+    color     : #000000;
+    background: #00ffff;
+}
+
+.nsw-navigation__list a:active {
+    color  : #000000;
+    padding: 6px 12px;
+}
+
+.nsw-navigation__list a:link {
+    color          : #000000;
+    padding        : 6px 12px;
+    text-decoration: none;
+}
+
+a {
+    padding   : 0px 0px 0px;
+    color     : #000000;
+    background: 1px solid blue;
+}
+
+.subheader img {
+    padding      : 20px;
+    border-radius: 200px;
+}
+
+.subheader {
+    padding     : 2px;
+    width       : 96%;
+    margin-left : auto;
+    margin-right: auto;
+    background  : #ffffff;
+}
+
+.content {
+    background  : transparent;
+    width       : 85%;
+    margin-left : auto;
+    margin-right: auto;
+    padding     : 30px 0px;
+    font-size   : x-large;
+}
+
+.content p {
+    margin: 20px 5px;
+}
+
+.container {
+    background: #002664;
+}
+
+.kuping {
+    width       : 100%;
+    margin-left : auto;
+    margin-right: auto;
+    font-size   : 20px;
+}
+
+.kepala {
+    background: #f4f4f7;
+    border    : 1px solid #002664;
+}
+
+.boxcontainer {
+    display              : grid;
+    grid-template-columns: auto auto auto;
+    gap                  : 25px 50px;
+    margin               : 50px 100px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding         : 10px;
+    font-size       : 18px;
+    text-align      : left;
+    height          : 300px;
+    color           : #000000;
+}
+
+.box h2 {
+    margin: 20px 0px;
+}
+
+
+img {
+    padding    : 50px;
+    margin-left: 60px;
+}
+
+
+figcaption {
+    color       : #000000;
+    width       : 90%;
+    margin-left : auto;
+    margin-right: auto;
+    font-size   : 18px;
+}
+
+figure img {
+    margin       : 20px 20px 0px;
+    border-radius: 20%;
+}
+
+.kingbadan {
+    color       : #000000;
+    width       : 85%;
+    margin-left : auto;
+    margin-right: auto;
+    font-size   : 18px;
+}
+
+.subbadan {
+    width           : 85%;
+    margin-left     : auto;
+    margin-right    : auto;
+    padding         : 50px;
+    color           : #000000;
+    background-color: rgba(230, 221, 221, 0.8);
+    font-size       : 18px;
+}
+
+h2 {
+    margin: 12px 0px 0px 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+h3 {
+    margin: 12px 0px 0px 0px;
+}
+
+.kotakcontainer {
+    display              : grid;
+    grid-template-columns: auto auto;
+    gap                  : 25px 20px;
+    margin               : 20px 100px;
+    color                : #000000;
+}
+
+.kotak {
+    background-color: rgba(230, 221, 221, 0.8);
+    border          : 1px solid rgba(0, 0, 0, 0.8);
+    padding         : 10px;
+    font-size       : 18px;
+    text-align      : left;
+    height          : 300px;
+    color           : #000000;
+    border-top      : 10px solid red;
+    border-radius   : 10px;
+}
+
+.subkotak {
+    color       : #000000;
+    width       : 85%;
+    margin-left : auto;
+    margin-right: auto;
+    padding     : 50px;
+    font-size   : 18px;
+}
+
+.kotakkecil {
+    background: #f4f4f7;
+}
+
+.bottomcontainer {
+    background: #85023b;
+
+}
+
+.bottomcontent {
+    background  : transparent;
+    width       : 85%;
+    margin-left : auto;
+    margin-right: auto;
+    padding     : 30px 0px;
+    font-size   : x-large;
+
+}
+
+.bottomcontent p {
+    padding: 10px 0px;
+}
+
+.semiakhir {
+    color       : #000000;
+    width       : 85%;
+    margin-left : auto;
+    margin-right: auto;
+    padding     : 50px;
+    font-size   : 18px;
+
+}
+
+.semiakhir h2 {
+    padding: 50px 0px;
+}
+
+.akhir {
+    display              : grid;
+    grid-template-columns: auto;
+    gap                  : 25px 50px;
+    margin               : 30px 100px;
+    background           : silver;
+    border-left          : 5px solid red;
+    border-right         : 5px solid red;
+
+}
+
+.subakhir {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding         : 10px;
+    font-size       : 18px;
+    text-align      : left;
+    height          : 300px;
+    color           : #000000;
+}
+
+.subakhir p {
+    padding: 10px 0px;
+}
+
+.ngisordewe {
+    display              : grid;
+    grid-template-columns: auto auto auto;
+    gap                  : 25px 50px;
+    color                : #000000;
+    border-top           : 1px solid #002664;
+}
+
+.subngisordewe {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding         : 10px;
+    font-size       : 18px;
+    text-align      : left;
+    height          : 300px;
+    color           : #000000;
+    margin          : 10px 100px;
+}
+
+.footer {
+    background: #333333;
+    padding   : 50px 100px;
+}
+
+.subfooter {
+    color     : rgba(255, 255, 255, 0.8);
+    background: #333333;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.bottom {
+    background: #333333;
+    text-align: left;
+}
+
+.nsw-footer__info p {
+    background: #333333;
+    text-align: left;
+}
+
+.nsw-container {
+    background: #333333;
+}
+.nsw-footer__built a {
+    text-align: right;
+}
+.bingkai {
+    margin-top: 0%;
+    margin-bottom: 20%;
+}
